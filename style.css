@@ -1,0 +1,132 @@
+body {
+    font-family: 'Source Sans Pro';
+    color: #444;
+    letter-spacing: 1px;
+    background: #FEFEFE;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Condensed';
+    color: #222;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+a, a:visited {
+    color: #9BC4BC;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #b1d1ca;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    background: #FEFEFE;
+    height: 100px;
+    padding: 0px 30px;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Condensed';
+    font-weight: bold !important;
+    color: #9BC4BC !important;
+}
+
+.navbar a {
+    font-weight: normal;
+}
+
+.container {
+    height: 100px;
+}
+
+#content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#project-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.project-img {
+    max-width: 90%;
+    margin: 10px;
+}
+
+.jumbotron {
+    background: transparent;
+    text-align: center;
+}
+
+hr {
+    border: 3px solid #9BC4BC;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.role-text {
+    color: #666;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.lead {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #444;
+}
+
+#portrait {
+    max-width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.project-card {
+    margin: 20px;
+}
+
+.btn-outline-dark, .btn-outline-dark a {
+    float: right;
+    font-weight: normal;
+    color: #333 !important;
+}
+
+.btn-outline-dark:hover, .btn-outline-dark a:hover {
+    font-weight: normal;
+    color: #fff !important;
+}
+
+#contact-links {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact-links img {
+    max-height: 40px;
+    margin: 15px;
+}
+
+footer {
+    margin: 25px;
+    text-align: center;
+    font-size: 12px;
+}
