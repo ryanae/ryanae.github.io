@@ -1,7 +1,6 @@
 body {
     font-family: 'Source Sans Pro';
     color: #444;
-    letter-spacing: 1px;
     background: #FEFEFE;
 }
 
@@ -87,7 +86,6 @@ hr {
 
 .lead {
     font-size: 16px;
-    letter-spacing: 1px;
     font-weight: normal;
     color: #444;
 }
